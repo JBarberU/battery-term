@@ -21,7 +21,8 @@ case $(uname -s) in
                 ;;
                 "FullyCharged")
                     if [ "$value" = "Yes" ]; then
-                        exit
+                        echo "Fully Charged";
+						exit;
                     fi
                 ;;
             esac
